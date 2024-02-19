@@ -10,6 +10,7 @@ const bot = new Bot()
 bot.queueSelectType = "random"
 
 bot.onLoading(()=>{
+    console.log("Connected to the server!")
     setInterval(()=>{
         bot.setPixelQueue = []
         for(let x = 0; x < 100; x ++){
