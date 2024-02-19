@@ -1,0 +1,20 @@
+{
+  "name": "rplacetkmybot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "https-proxy-agent": "^7.0.4",
+    "jimp": "^0.22.10",
+    "jsdom": "^24.0.0",
+    "png-js": "^1.0.0",
+    "ws": "^8.16.0"
+  }
+}
